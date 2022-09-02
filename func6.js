@@ -14,7 +14,7 @@ Expected Output: 5
             if (i === j) { count++ }
         }
     }
-    return [count]
+    return [`${count} vowels in your string`]
 }
 
 export { func6 }

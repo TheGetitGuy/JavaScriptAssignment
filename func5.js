@@ -18,7 +18,7 @@ function func5(stringToUse) {
         }
     }
     console.log(arrayOfStrings[biggestArrayIndex])
-    return [arrayOfStrings[biggestArrayIndex]]
+    return [`${arrayOfStrings[biggestArrayIndex]} is the longest word.`]
 
 
 
