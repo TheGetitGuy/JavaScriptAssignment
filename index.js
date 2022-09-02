@@ -3,6 +3,8 @@ import {func1} from "./func1.js"
 import {func2} from "./func2.js"    
 import {func3} from "./func3.js"    
 import {func4} from "./func4.js"    
+import {func5} from "./func5.js"    
+import {func6} from "./func6.js"    
 
 const numberBox = document.forms[0][0]; 
 const argBox = document.forms[0][1]; 
@@ -14,9 +16,11 @@ func1,
 func2,
 func3,
 func4,
+func5,
+func6,
 ] 
 
-window.onload=(()=>{
+window.onload=(()=>{ 
     numberBox.addEventListener("change",handleChange)    
     functionForm.addEventListener("submit",handleSubmit)    
     
