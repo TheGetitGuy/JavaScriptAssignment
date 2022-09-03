@@ -1,0 +1,6 @@
+.textRed{
+    color:red;
+}
+#append > div:nth-child(odd){
+    background-color: rgb(245, 231, 240);
+}

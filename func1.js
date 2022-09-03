@@ -4,7 +4,7 @@ function func1(stringToReverse){
 A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g.,
 madam or nurses run.
 */ 
-    return([stringToReverse.split("").reverse().join("")==stringToReverse])
+    return([(stringToReverse.split("").reverse().join("")==stringToReverse)? "this is a palindrome" : "this is not a palindrome"])
 }
 
 export {func1}

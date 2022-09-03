@@ -12,7 +12,7 @@ Expected Output: d, do, dog, o, og, g
             arrayOfStringCombos.push(stringToUse.slice(i, j))
         } 
     }
-    return(arrayOfStringCombos)
+    return(["These are all the combos",...arrayOfStringCombos])
 }
 
 export {func2}

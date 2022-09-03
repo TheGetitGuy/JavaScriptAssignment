@@ -1,19 +1,19 @@
 function func4(stringToUse) {
-/**
-5. Write a JavaScript function that accepts a string as a parameter and converts the first letter of
-each word of the string in upper case. 
-Example string: 'the quick brown fox' 
-Expected Output: 'The Quick Brown Fox '
-*/
+    /**
+    5. Write a JavaScript function that accepts a string as a parameter and converts the first letter of
+    each word of the string in upper case. 
+    Example string: 'the quick brown fox' 
+    Expected Output: 'The Quick Brown Fox '
+    */
 
-let arrayToUse = stringToUse.split(" ")
-for (let i in arrayToUse){
-    let splitWord = arrayToUse[i].split("")
-    splitWord[0] = splitWord[0].toUpperCase()
-    splitWord = splitWord.join("")
-    arrayToUse[i] = splitWord
-} 
- return [arrayToUse.join(" ")]
+    let arrayToUse = stringToUse.split(" ")
+    for (let i in arrayToUse) {
+        let splitWord = arrayToUse[i].split("")
+        splitWord[0] = splitWord[0].toUpperCase()
+        splitWord = splitWord.join("")
+        arrayToUse[i] = splitWord
+    }
+    return ["Capitals for first letters.", arrayToUse.join(" ")]
 }
 
 export { func4 }

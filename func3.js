@@ -23,7 +23,7 @@ function func3(stringToUse) {
     }
     console.log(newStringArray)
 
-    return [stringArray.join("")]
+    return [" This is the alphabet sorted string",stringArray.join("")]
 
 
 }
