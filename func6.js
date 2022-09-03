@@ -8,7 +8,7 @@ Example string: 'The quick brown fox'
 Expected Output: 5
     */
     let count = 0
-    const vowels = ["a", "e", "i", "0", "u"]
+    const vowels = ["a", "e", "i", "o", "u"]
     for (let i of stringToUse.toLowerCase().split("")) {
         for (let j of vowels) {
             if (i === j) { count++ }
