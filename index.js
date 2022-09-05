@@ -6,6 +6,10 @@ import {func4} from "./func4.js"
 import {func5} from "./func5.js"    
 import {func6} from "./func6.js"    
 import {func7} from "./func7.js"    
+import {func8} from "./func8.js"    
+import {func9} from "./func9.js"    
+import {func10} from "./func10.js"    
+import {func11} from "./func11.js"    
 
 const numberBox = document.forms[0][0]; 
 const argBox = document.forms[0][1]; 
@@ -20,6 +24,10 @@ func4,
 func5,
 func6,
 func7,
+func8,
+func9,
+func10,
+func11,
 ] 
 
 window.onload=(()=>{ 
