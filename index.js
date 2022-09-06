@@ -16,6 +16,8 @@ import {func14} from "./func14.js"
 import {func15} from "./func15.js"    
 import {func16} from "./func16.js"    
 import {func17} from "./func17.js"    
+import {func18} from "./func18.js"    
+import {func19} from "./func19.js"    
 
 const numberBox = document.forms[0][0]; 
 const argBox = document.forms[0][1]; 
@@ -40,6 +42,8 @@ func14,
 func15,
 func16,
 func17,
+func18,
+func19,
 ] 
 
 window.onload=(()=>{ 

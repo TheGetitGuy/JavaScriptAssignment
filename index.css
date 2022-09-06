@@ -4,3 +4,6 @@
 #append > div:nth-child(odd){
     background-color: rgb(245, 231, 240);
 }
+#append div{
+    word-wrap: break-word;
+}
